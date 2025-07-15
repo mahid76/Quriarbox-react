@@ -1,1 +1,16 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@theme {
+	--font-primary: "Raleway", sans-serif;
+	--font-secondary: "Oxanium", sans-serif;
+	--color-primary: #F95C19;
+	--color-secondary: #11111D;
+	--color-tertiary: #464558;
+}
+
+body{
+background: #FFF7E7;
+background: linear-gradient(0deg,rgba(255, 247, 231, 1) 0%, rgba(255, 241, 220, 1) 98%);
+}
